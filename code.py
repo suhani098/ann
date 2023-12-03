@@ -2,7 +2,7 @@ import pandas as pd#to give us structured data
 import numpy as np#to manupilate complex arrays
 from sklearn.impute import SimpleImputer #handles missing values in data
 from sklearn.preprocessing import MinMaxScaler#used for normalization 
-from sklearn.model_selection import train_test_split#some data is split to training and some for training
+from sklearn.model_selection import train_test_split#s data is split to training and some for training
 from tensorflow import keras
 
 # Read the CSV file 
